@@ -1,0 +1,46 @@
+! Title: Xiaohongshu (小紅書) Block List
+! Description: Block Xiaohongshu/RedNote domains for AdGuard Home
+! Homepage: https://github.com/bouob/dnsfilter
+! License: MIT
+! Last modified: 2025-12-05
+! Version: 1.0.0
+
+! ====================================
+! 主要網域 (Main Domains)
+! ====================================
+||xiaohongshu.com^
+||xiaohongshu.cn^
+||xiaohongshu.net^
+||xiaohongshu.net.cn^
+
+! ====================================
+! CDN 網域 (CDN Domains)
+! ====================================
+||xhscdn.com^
+||xhscdn.net^
+||xhscdn.cn^
+
+! ====================================
+! 短網址服務 (Short URL Services)
+! ====================================
+||xhslink.com^
+||xhslink.cn^
+||xhsurl.com^
+||xhsurl.cn^
+
+! ====================================
+! 系統與 DNS 網域 (System & DNS Domains)
+! ====================================
+||xhsdns.com^
+||xhsdns.net^
+||xhsos.com^
+||xhssys.cn^
+||xhssys.com^
+||xhssys.net^
+
+! ====================================
+! 第三方追蹤服務 (Third-party Tracking)
+! 來源: SRLabs 報告
+! ====================================
+||kuaishouzt.com^
+||kwaizt.com^
