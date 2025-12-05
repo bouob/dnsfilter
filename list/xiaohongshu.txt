@@ -3,7 +3,8 @@
 ! Homepage: https://github.com/bouob/dnsfilter
 ! License: MIT
 ! Last modified: 2025-12-05
-! Version: 1.0.0
+! Version: 1.1.0
+! Sources: urlscan.io, SRLabs, ControlD, Certificate Transparency
 
 ! ====================================
 ! 主要網域 (Main Domains)
@@ -19,6 +20,8 @@
 ||xhscdn.com^
 ||xhscdn.net^
 ||xhscdn.cn^
+||xhsredcdn.com^
+||cdnxhs.com^
 
 ! ====================================
 ! 短網址服務 (Short URL Services)
@@ -37,6 +40,16 @@
 ||xhssys.cn^
 ||xhssys.com^
 ||xhssys.net^
+
+! ====================================
+! 新發現網域 (Newly Discovered Domains)
+! 來源: ControlD, Certificate Transparency
+! ====================================
+||redelight.info^
+||redelight.com.cn^
+||yuukoo.com.cn^
+||hongyunlogistics.com^
+||xingin.com^
 
 ! ====================================
 ! 第三方追蹤服務 (Third-party Tracking)
