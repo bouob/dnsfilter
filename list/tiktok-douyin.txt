@@ -1,0 +1,154 @@
+! Title: TikTok/Douyin (抖音) Block List
+! Description: Block TikTok, Douyin and ByteDance domains for AdGuard Home
+! Homepage: https://github.com/bouob/dnsfilter
+! License: MIT
+! Last modified: 2025-12-06
+! Version: 1.0.0
+! Sources: v2fly/domain-list-community, GitHub, Network Research
+
+! ====================================
+! 抖音核心網域 (Douyin Core Domains)
+! ====================================
+||douyin.com^
+||douyincdn.com^
+||douyinpic.com^
+||douyinstatic.com^
+||douyinvod.com^
+||iesdouyin.com^
+||amemv.com^
+||douyinact.com^
+||douyinact.net^
+||douyinfe.com^
+
+! ====================================
+! TikTok 核心網域 (TikTok Core Domains)
+! ====================================
+||tiktok.com^
+||tiktokv.com^
+||tiktokcdn.com^
+||tiktokcdn-us.com^
+||tiktokcdn-eu.com^
+||tiktokd.net^
+||tiktokd.org^
+||tiktokv.eu^
+||tiktokv.us^
+||tiktokw.eu^
+||tiktokw.us^
+||tiktokeu-cdn.com^
+||tiktokrow-cdn.com^
+||tik-tokapi.com^
+||tiktok-row.net^
+||tiktokglobalshopv.com^
+||tiktokminis.us^
+||ttlivecdn.com^
+||ttoverseaus.net^
+||ttwstatic.com^
+
+! ====================================
+! Musical.ly 遺留網域 (Musical.ly Legacy)
+! ====================================
+||musical.ly^
+||muscdn.com^
+||musemuse.cn^
+
+! ====================================
+! 字節跳動基礎設施 (ByteDance Infrastructure)
+! ====================================
+||bytedance.com^
+||bytedance.cn^
+||bytedance.net^
+||bytedance.org^
+||bytecdn.cn^
+||bytecdn.com^
+||bytedns.net^
+||bytednsdoc.com^
+||byteimg.com^
+||bytetos.com^
+||bytescm.com^
+||bytegoofy.com^
+||byted-static.com^
+||bytexservice.com^
+||byteoversea.com^
+||byteoversea.net^
+||bytefcdn-oversea.com^
+||bytefcdn-ttpeu.com^
+||byteintl.net^
+||bytelb.com^
+||bytelb.net^
+||bytemaimg.com^
+||bytemastatic.com^
+||bytetraffic.net^
+||bytetstatic.com^
+||bytetstatic.net^
+||bytevcloudvod.com^
+||ibytedtos.com^
+||ibyteimg.com^
+||ibytedapm.com^
+
+! ====================================
+! 追蹤與日誌服務 (Tracking & Logging)
+! 高優先級 - 封鎖後抖音無法載入
+! ====================================
+||snssdk.com^
+||zijieapi.com^
+||zijieimg.com^
+||zjbyte.com^
+||zjcdn.com^
+||pstatp.com^
+
+! ====================================
+! 今日頭條 (Toutiao)
+! ====================================
+||toutiao.com^
+||toutiaoapi.com^
+||toutiaocdn.com^
+||toutiaocloud.com^
+||toutiaopage.com^
+||toutiao13.com^
+
+! ====================================
+! 西瓜視頻 (Xigua Video)
+! ====================================
+||ixigua.com^
+||ixiguavideo.com^
+||xiguavideo.cn^
+||xiguavideo.net^
+||bdxiguaimg.com^
+||bdxiguastatic.com^
+
+! ====================================
+! 火山視頻 (Huoshan Video)
+! ====================================
+||huoshan.com^
+||huoshanzhibo.com^
+||huoshancdn.com^
+||huoshanimg.com^
+||huoshanlive.com^
+
+! ====================================
+! DNS/負載平衡 (DNS/Load Balancing)
+! ====================================
+||gslbdns.com^
+||gslbdns.net^
+||fedlearner.net^
+
+! ====================================
+! 其他字節跳動產品 (Other ByteDance Products)
+! ====================================
+! CapCut 剪映
+||capcut.com^
+||capcut.net^
+
+! Lemon8
+||lemon8-app.com^
+
+! 其他服務
+||feelgood.cn^
+||feiliao.com^
+||wukong.com^
+||wukongwenda.com^
+||gogokid.com.cn^
+||pipix.com^
+||ppximg.com^
+||gifshow.com^
+||kspkg.com^
