@@ -3,14 +3,16 @@
 ! Homepage: https://github.com/bouob/dnsfilter
 ! License: AGPL-3.0
 ! Last modified: 2025-12-19
-! Version: 1.0.0
+! Version: 1.1.0
 ! Sources: https://blog.gslin.org/archives/2025/12/16/12795/
+!          https://mrpeelblog.com/posts/line-adblock/
 
 ! ====================================
 ! Advertising Domains
 ! ====================================
 ||a.line.me^
 ||ad.line-scdn.net^
+||d.line-scdn.net^
 
 ! ====================================
 ! News/Today Service (Ads included)
@@ -38,6 +40,11 @@
 ! ====================================
 ||voom-assets.line-scdn.net^
 ||voom-obs.line-scdn.net^
+
+! ====================================
+! Shopping Ads
+! ====================================
+||buy.line.me^
 
 ! ====================================
 ! Other Ad-related Services

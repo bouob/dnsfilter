@@ -1,7 +1,9 @@
 # Line Ads DNS Block List
 
 **Last Updated**: 2025-12-19
-**Source**: [Gslin's Blog - Blocking Line Ads on Desktop and Laptop](https://blog.gslin.org/archives/2025/12/16/12795/)
+**Sources**:
+- [Gslin's Blog - Blocking Line Ads on Desktop and Laptop](https://blog.gslin.org/archives/2025/12/16/12795/)
+- [MrPeel's Blog - Using AdGuard to Remove Line Ads](https://mrpeelblog.com/posts/line-adblock/)
 
 ---
 
@@ -19,6 +21,13 @@ This list blocks advertising and tracking domains used by Line on desktop and la
 |--------|---------|
 | `a.line.me` | Main advertising server |
 | `ad.line-scdn.net` | Ad content delivery |
+| `d.line-scdn.net` | Ad photo/media CDN |
+
+### Shopping Ads
+
+| Domain | Purpose |
+|--------|---------|
+| `buy.line.me` | Line shopping GraphQL API (includes ads) |
 
 ### News/Today Service
 
@@ -81,7 +90,9 @@ Add the following to your hosts file:
 0.0.0.0 a.line.me
 0.0.0.0 ad.line-scdn.net
 0.0.0.0 api.today.line.me
+0.0.0.0 buy.line.me
 0.0.0.0 crs-event.line.me
+0.0.0.0 d.line-scdn.net
 0.0.0.0 jp-col-tcp.nelo.linecorp.com
 0.0.0.0 legy.line-apps.com
 0.0.0.0 legy.line-apps.com.akadns.net
@@ -113,3 +124,4 @@ Add the following to your hosts file:
 ## References
 
 - [Gslin's Blog - Blocking Line Ads](https://blog.gslin.org/archives/2025/12/16/12795/)
+- [MrPeel's Blog - Using AdGuard to Remove Line Ads](https://mrpeelblog.com/posts/line-adblock/)

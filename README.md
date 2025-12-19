@@ -7,7 +7,7 @@ A collection of DNS blocklists for AdGuard Home, Pi-hole, and other DNS-based ad
 | List | Description | Domains | Link |
 |------|-------------|---------|------|
 | **Xiaohongshu** | Block Xiaohongshu (RedNote) tracking and services | 20+ | [xiaohongshu.txt](list/xiaohongshu.txt) |
-| **Line Ads** | Block Line advertising and tracking | 16 | [line.txt](list/line.txt) |
+| **Line Ads** | Block Line advertising and tracking | 18 | [line.txt](list/line.txt) |
 
 ## Usage
 
@@ -69,3 +69,4 @@ This project is licensed under the [AGPL-3.0 License](LICENSE).
 
 ### Line
 - [Gslin's Blog - Blocking Line Ads on Desktop and Laptop](https://blog.gslin.org/archives/2025/12/16/12795/)
+- [MrPeel's Blog - Using AdGuard to Remove Line Ads](https://mrpeelblog.com/posts/line-adblock/)
