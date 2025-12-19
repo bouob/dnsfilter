@@ -1,0 +1,47 @@
+! Title: Line Ads Block List
+! Description: Block Line advertising and tracking domains for AdGuard Home
+! Homepage: https://github.com/bouob/dnsfilter
+! License: AGPL-3.0
+! Last modified: 2025-12-19
+! Version: 1.0.0
+! Sources: https://blog.gslin.org/archives/2025/12/16/12795/
+
+! ====================================
+! Advertising Domains
+! ====================================
+||a.line.me^
+||ad.line-scdn.net^
+
+! ====================================
+! News/Today Service (Ads included)
+! ====================================
+||api.today.line.me^
+||today.line.me^
+||today-obs.line-scdn.net^
+
+! ====================================
+! Tracking & Analytics
+! ====================================
+||crs-event.line.me^
+||linecrs.line-scdn.net^
+||jp-col-tcp.nelo.linecorp.com^
+
+! ====================================
+! LEGY (Line Edge Gateway) - Ad Delivery
+! ====================================
+||legy.line-apps.com^
+||legy.line-apps.com.akadns.net^
+||legy-jp-addr-ds.line-apps.com^
+
+! ====================================
+! VOOM (Timeline/Social Feed Ads)
+! ====================================
+||voom-assets.line-scdn.net^
+||voom-obs.line-scdn.net^
+
+! ====================================
+! Other Ad-related Services
+! ====================================
+||sch.line.me^
+||uts-front.line-apps.com^
+||w.line.me^
